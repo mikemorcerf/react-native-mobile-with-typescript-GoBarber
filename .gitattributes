@@ -1,6 +1,8 @@
 *.pbxproj -text
 *.java linguist-detectable=false
 *.rb linguist-detectable=false
+*.h linguist-detectable=false
+*.m linguist-detectable=false
 Podfile linguist-detectable=false
 *.tsx linguist-detectable=true
 *.ts linguist-detectable=true
