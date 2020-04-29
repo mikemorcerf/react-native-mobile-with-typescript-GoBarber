@@ -38,8 +38,8 @@ interface SignInFormData {
 }
 
 const SignIn: React.FC = () => {
-	const formRef = useRef<FormHandles>(null);
 	const passwordInputRef = useRef<TextInput>(null);
+	const formRef = useRef<FormHandles>(null);
 
 	const navigation = useNavigation();
 
