@@ -1,8 +1,9 @@
 import styled from 'styled-components/native';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 import { FlatList } from 'react-native';
-import { Provider } from './index';
 import { RectButton } from 'react-native-gesture-handler';
+
+import { Provider } from './index';
 
 export const Container = styled.View`
 	flex: 1;
@@ -87,4 +88,3 @@ export const ProviderMetaText = styled.Text`
 	color: #999591;
 	font-family: 'RobotoSlab-Regular';
 `;
-
